@@ -1,4 +1,3 @@
-require("luasnip.loaders.from_vscode").lazy_load()
 require 'cmp'.setup {
     snippet = {
         expand = function(args)
@@ -16,6 +15,9 @@ require 'cmp'.setup {
 --
 -- require("luasnip.loaders.from_vscode").load({
 --     paths = { "~/.local/share/mynvim/site/pack/packer/start/vim-react-snippets" } })
--- require('luasnip').filetype_extend("javascript", { "javascriptreact" })
+require('luasnip').filetype_extend("javascript", { "javascriptreact", "typescriptreact" })
+require('luasnip').filetype_extend("javascript", { "html" })
+require('luasnip').filetype_extend("javascriptreact", { "html" })
+require('luasnip').filetype_extend("typescriptreact", { "html" })
 
--- require('luasnip').filetype_extend("javascript", { "html" })
+require("luasnip.loaders.from_vscode").lazy_load()
