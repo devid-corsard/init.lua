@@ -74,10 +74,66 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0" },
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
+  LuaSnip = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
+  ["lsp-zero.nvim"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/lsp-zero.nvim",
+    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -118,10 +174,19 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-react-snippets"] = {
+    loaded = true,
+    path = "/Users/mac1/.local/share/mynvim/site/pack/packer/start/vim-react-snippets",
+    url = "https://github.com/mlaursen/vim-react-snippets"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+time([[Config for Comment.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
