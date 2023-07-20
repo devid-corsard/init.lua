@@ -1,4 +1,3 @@
-
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -30,3 +29,6 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "100"
 
 vim.opt.cursorline = true
+
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevel = 5
