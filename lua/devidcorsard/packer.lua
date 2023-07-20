@@ -71,4 +71,6 @@ return require('packer').startup(function(use)
             "nvim-lua/plenary.nvim",
         },
     })
+
+    use 'rust-lang/rust.vim'
 end)
