@@ -10,8 +10,8 @@ dependencies:
 
 ### Before cloning config you need to install some tools:
 ```
-apt update && apt upgrade
-apt install sudo curl git ripgrep build-essential
+apt update && apt upgrade &&\
+apt install -y sudo curl git ripgrep build-essential
 ```
 
 Node lts:
