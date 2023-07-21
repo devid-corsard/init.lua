@@ -56,10 +56,7 @@ git clone https://github.com/devid-corsard/init.lua.git ~/.config/nvim/.
 ```
 Open nvim and go to `packer.lua`
 
-
-execute `:so` and then `:PackerSync` 2 times
-
-1 time it installs itself, and then other plugins
+execute `:so` and then `:PackerSync` couple of times, until you see the message that all successfully updated
 
 Quit vim and open it again and wait while all compiles
 
