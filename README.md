@@ -11,7 +11,7 @@ dependencies:
 ### Before cloning config you need to install some tools:
 ```
 apt update && apt upgrade
-apt install wget sudo curl git ripgrep build-essential
+apt install sudo curl git ripgrep build-essential
 ```
 
 Node lts:
@@ -37,29 +37,10 @@ make sure nvim is 0.8 or better 0.9
 
 for example from Tarball:
 
-Alternate installation*
-
 ```
-curl -Lo nvim.tar.gz "https://github.com/neovim/neovim/releases/download/v0.9.1/nvim-linux64.tar.gz"
-tar xf nvim.tar.gz nvim
-sudo install nvim /usr/local/bin
-```
-
-Download nvim-linux64.tar.gz
-```
-wget https://github.com/neovim/neovim/releases/download/v0.9.1/nvim-linux64.tar.gz
-```
-
-Extract: 
-```
-tar xzvf nvim-linux64.tar.gz
-```
-
-you can run: ``./nvim-linux64/bin/nvim``
-
-but better to create a link:
-```
-ln -s ~/nvim-linux64/bin/nvim /usr/local/bin/nvim
+curl -Lo ~/nvim.tar.gz "https://github.com/neovim/neovim/releases/download/v0.9.1/nvim-linux64.tar.gz"
+tar xf ~/nvim.tar.gz -C ~/.
+cp -r ~/nvim-linux64/* /usr/.
 ```
 
 ### Then copy this config
