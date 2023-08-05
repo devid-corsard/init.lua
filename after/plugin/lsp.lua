@@ -24,7 +24,6 @@ lsp.format_on_save({
 
 lsp.ensure_installed({
   'tsserver',
-  'eslint',
   'rust_analyzer'
 })
 
