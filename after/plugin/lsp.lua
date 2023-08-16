@@ -24,6 +24,8 @@ lsp.format_on_save({
 
 lsp.ensure_installed({
   'tsserver',
+  'emmet_ls',
+  'html',
   'rust_analyzer'
 })
 
