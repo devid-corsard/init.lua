@@ -30,5 +30,5 @@ vim.opt.colorcolumn = "100"
 
 vim.opt.cursorline = true
 
--- vim.opt.foldmethod = "indent"
+vim.opt.foldmethod = "indent"
 vim.opt.foldlevel = 15
