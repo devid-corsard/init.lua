@@ -1,6 +1,4 @@
-
 local lsp = require('lsp-zero').preset("recommended")
---local lsp = require('lsp-zero').preset({})
 
 lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({buffer = bufnr})
@@ -19,6 +17,7 @@ lsp.format_on_save({
   },
   servers = {
     ['rust_analyzer'] = {'rust'},
+    ['gopls'] = {'go', 'gomod'},
   }
 })
 
