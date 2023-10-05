@@ -26,6 +26,8 @@ return require('packer').startup(function(use)
     }
     use('nvim-treesitter/playground')
     use('nvim-treesitter/nvim-treesitter-context')
+    use('nvim-treesitter/nvim-treesitter-refactor')
+    use('HiPhish/rainbow-delimiters.nvim')
 
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
